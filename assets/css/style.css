@@ -26,6 +26,9 @@ body {
     width: 100%;
     margin: 0 auto!important;
 }
+.row {
+    margin-bottom: 0;
+}
 
 /* --- MENU --- */
 .caixa-topo {
@@ -550,6 +553,109 @@ footer .redes-sociais .fa {
     color: #242424;
 }
 
+.receita-interna h2 {
+    font-size: 32px;
+    color: #f36623;
+    margin: 0 0 30px;
+}
+.receita-interna ul {
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.receita-interna ul>li {
+    font-size: 18px;
+    color: #939090;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.receita-interna .ingredientes>li span {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: #f89801;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+.receita-interna .preparo>li span {
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    background: #f89801;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+aside {
+    margin-top: 63px;
+}
+aside h4 {
+    margin-bottom: 20px!important;
+}
+aside .item {
+    margin-bottom: 30px;
+}
+aside img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    margin-bottom: 0!important;
+}
+aside .btn {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #f36623;
+    padding-left: 20px;
+    border-radius: 0;
+}
+aside .btn:hover {
+    color: #fff;
+    background: #f89801;
+}
+
+.contato form {
+    margin-top: 30px;
+}
+.contato input {
+    font-size: 16px;
+    color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+    border-radius: 0;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.contato textarea {
+    font-size: 16px;
+    color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+    border-radius: 0;
+    height: 215px;
+}
+.contato button {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f89801;
+    padding: 10px 40px;
+    border: none;
+    float: right;
+    margin-top: 30px;
+}
+.contato button:hover {
+    background: #f36623;
+}
+.contato .conteudo {
+    margin-top: 54px;
+}
+
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     .navbar-default {
@@ -708,6 +814,12 @@ footer .redes-sociais .fa {
     .clientes #owl-clientes {
         padding: 10px;
         margin-top: 30px;
+    }
+    .receita-interna ul>li {
+        font-size: 12px;
+    }
+    .contato .conteudo {
+        margin-top: 100px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
