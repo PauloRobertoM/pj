@@ -13,6 +13,7 @@
         <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' />
         <link rel='stylesheet' href='assets/css/hover-min.css' type='text/css' />
         <link rel='stylesheet' href='assets/css/owl.carousel.min.css' type='text/css' />
+        <link rel='stylesheet' href='assets/css/masonry-docs.css' type='text/css' />
         <link rel='stylesheet' href='assets/css/style.css' type='text/css' />
     </head>
 

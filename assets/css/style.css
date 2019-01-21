@@ -19,10 +19,12 @@ li {
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background: #fff;
 }
 .container {
     max-width: 1260px!important;
     width: 100%;
+    margin: 0 auto!important;
 }
 
 /* --- MENU --- */
@@ -139,6 +141,206 @@ header ul.nav>li>a:hover {
     height: 2px;
 }
 
+.pj {
+    padding: 100px 0;
+    background: #f1f1f1;
+}
+.pj .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pj .img-principal {
+    max-width: 445px;
+    width: 100%;
+    height: 405px;
+    object-fit: cover;
+}
+.pj .conteudo {
+    max-width: 520px;
+    width: 100%;
+    height: 520px;
+    background: #484847;
+    padding: 60px 80px;
+}
+.pj .conteudo img {
+    margin: 10px 0 25px;
+}
+.pj h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.pj p {
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+}
+.pj a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f89801;
+    padding: 10px 60px 10px 20px;
+    display: table;
+    margin-top: 30px;
+}
+
+.servicos {
+    padding: 100px 0;
+}
+.servicos h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #686868;
+    text-align: center;
+    margin: 0;
+}
+.servicos h2 span {
+    font-weight: 700;
+}
+.servicos .borda {
+    margin: 10px auto 0;
+    display: block;
+}
+.servicos .itens {
+    display: flex;
+    margin-top: 60px;
+}
+.servicos .item {
+    width: 50%;
+    float: left;
+}
+.servicos .item img {
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+}
+.servicos .btn {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f89801;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    margin: -60px auto 0;
+    position: relative;
+}
+.servicos a:hover {
+    background: #f36623;
+}
+
+.receitas {
+    background: #f89801;
+    padding: 100px 0;
+}
+.receitas h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.receitas h2 span {
+    font-weight: 700;
+}
+.receitas .borda {
+    margin: 10px auto 0;
+    display: block;
+}
+.receitas .itens {
+    display: flex;
+    margin-top: 60px;
+}
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid {
+    margin-top: 60px;
+}
+.grid-item {
+    width: 45%;
+    height: 360px;
+    float: left;
+    background: transparent;
+    border: none;
+    border-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 0;
+}
+.grid-item--width2 {
+    width: 55%;
+}
+.grid-item--width3 {
+    width: 70%;
+}
+.grid-item--width4 {
+    width: 30%;
+}
+.grid-item--height2 {
+    height: 315px;
+}
+.grid-item img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+.grid-item--height2 img {
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+}
+.grid-item .btn {
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #f36623;
+    position: relative;
+    margin-top: -80px;
+    opacity: 0;
+}
+.grid-item:hover .btn {
+    opacity: 1;
+}
+
+.clientes {
+    padding: 100px 0;
+}
+.clientes h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #686868;
+    text-align: center;
+    margin: 0;
+}
+.clientes h2 span {
+    font-weight: 700;
+}
+.clientes .borda {
+    margin: 10px auto 0;
+    display: block;
+}
+.clientes #owl-clientes {
+    border: 1px solid #cccccc;
+    padding: 50px 120px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.clientes #owl-clientes img {
+    height: 70px;
+    object-fit: contain;
+}
+
 .topo-interna {
     padding-top: 60px;
 }
@@ -249,6 +451,7 @@ header ul.nav>li>a:hover {
 .newsletter {
     padding: 60px 0;
     background: #f36623;
+    border-bottom: 1px solid #cccccc;
 }
 .newsletter .onda1 {
     position: absolute;
@@ -442,6 +645,70 @@ footer .redes-sociais .fa {
         height: 100%;
         padding-bottom: 80px;
     }
+    .pj,
+    .servicos,
+    .receitas,
+    .clientes {
+        padding: 50px 0;
+    }
+    .pj .item {
+        display: block;
+    }
+    .pj .img-principal {
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+    .pj .conteudo {
+        height: auto;
+        padding: 20px 15px;
+    }
+    .servicos h2,
+    .receitas h2,
+    .clientes h2 {
+        font-size: 34px;
+    }
+    .servicos .itens {
+        display: block;
+        margin-top: 30px;
+    }
+    .servicos .item {
+        width: 100%;
+        float: none;
+    }
+    .servicos .item img {
+        height: 200px;
+    }
+    .servicos .btn {
+        font-size: 14px;
+        width: 80%;
+        height: 50px;
+        margin: -50px auto 0;
+    }
+    .grid {
+        margin-top: 30px;
+    }
+    .grid-item,
+    .grid-item img,
+    .grid-item--width2,
+    .grid-item--width3,
+    .grid-item--height2 img,
+    .grid-item--width4,
+    .grid-item--width4 img {
+        width: 100%;
+        height: 250px;
+    }
+    .grid-item .btn {
+        font-size: 14px;
+        height: 40px;
+        margin-top: -40px;
+        opacity: 1;
+    }
+    .clientes #owl-clientes {
+        padding: 10px;
+        margin-top: 30px;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     header ul.nav>li>a {
@@ -460,6 +727,26 @@ footer .redes-sociais .fa {
     footer span {
         font-size: 10px;
         margin: 0 10px 0 0;
+    }
+    .pj .img-principal {
+        max-width: 400px;
+    }
+    .pj .conteudo {
+        padding: 20px 30px;
+    }
+    .servicos .item img {
+        height: 350px;
+    }
+    .servicos .btn {
+        width: 70%;
+    }
+    .grid-item,
+    .grid-item img {
+        height: 300px;
+    }
+    .grid-item--height2,
+    .grid-item--height2 img {
+        height: 260px;
     }
 }
 @media (min-width: 992px) and (max-width: 1023px) {
