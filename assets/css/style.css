@@ -34,7 +34,7 @@ body {
 .caixa-topo {
     position: absolute;
     top: -70px;
-    right: 0;
+    right: 10px;
     width: 180px;
     height: 40px;
     background: #f89801;
@@ -84,7 +84,8 @@ body {
 .navbar-brand {
     margin: 0;
     padding: 0;
-    width: 350px;
+    max-width: 415px;
+    width: 100%;
     height: 140px;
     display: flex;
     align-items: center;
@@ -350,7 +351,7 @@ header ul.nav>li>a:hover {
 .topo-interna hr {
     margin-top: 57px;
     margin-bottom: 40px;
-    border-top: 1px solid #fdddaa;
+    border-top: 1px solid #f89801;
 }
 .titulo-interna {
     width: 205px;
@@ -876,5 +877,45 @@ aside .btn:hover {
     }
     .newsletter h2 {
         font-size: 32px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1250px) {
+    .navbar-brand {
+        max-width: 293px;
+    }
+}
+@media (min-width: 1251px) and (max-width: 1300px) {
+    .navbar-brand {
+        max-width: 300px;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1400px) {
+    .navbar-brand {
+        max-width: 337px;
+    }
+}
+@media (min-width: 1401px) and (max-width: 1500px) {
+    .navbar-brand {
+        max-width: 365px;
+    }
+}
+@media (min-width: 1501px) and (max-width: 1600px) {
+    .navbar-brand {
+        max-width: 420px;
+    }
+}
+@media (min-width: 1601px) and (max-width: 1700px) {
+    .navbar-brand {
+        max-width: 475px;
+    }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+    .navbar-brand {
+        max-width: 530px;
+    }
+}
+@media (min-width: 1801px) and (max-width: 1920px) {
+    .navbar-brand {
+        max-width: 575px;
     }
 }
